@@ -1,0 +1,37 @@
+SELECT LENGTH('SQL');
+
+SELECT CHAR_LENGTH('SQL');
+
+
+SELECT UPPER('sql');
+
+SELECT LOWER('SQL');
+
+
+SELECT LEFT('SQL', 2);
+
+SELECT RIGHT('SQL', 2);
+
+SELECT SUBSTRING('SQL', 2, 1);
+
+
+SELECT CONCAT('SQL', '-', 'Function');
+
+SELECT 'SQL' || '-' || 'Function';
+
+
+SELECT TRIM('SQL   ');
+
+
+SELECT REPLACE('SQL', 'Q', '_');
+
+
+-- NULL
+
+SELECT NULLIF(10, 10);
+
+SELECT NULLIF(10, 20);
+
+
+
+SELECT COALESCE(NULL, NULL, 2);
