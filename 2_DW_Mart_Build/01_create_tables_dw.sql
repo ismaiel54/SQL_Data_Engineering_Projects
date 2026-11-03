@@ -1,4 +1,3 @@
--- .read 01_create_tables_dw.sql
 -- Step 1: DW - Create star schema tables
 
 DROP TABLE IF EXISTS skills_job_dim;
@@ -9,7 +8,7 @@ DROP TABLE IF EXISTs skills_dim;
 
 CREATE TABLE company_dim (
     company_id  INTEGER     PRIMARY KEY,
-    name        VARCHAR,      
+    name        VARCHAR    
 );
 
 CREATE TABLE skills_dim (
