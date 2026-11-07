@@ -11,3 +11,11 @@ A collection of SQL projects I've worked on to develop and strengthen my skills 
 ![Project 1 Overview](./Images/Image_EDA.png)
 
 SQL-driven analysis of the Data Engineer job market, identifying the most in-demand skills, highest-paying technologies, and optimal skills based on salary and demand.
+
+### [2. DW Mart Build](./2_DW_Mart_Build/) - Data Pipeline - Data Warehouse & Mart
+
+![Data Pipeline Architecture](Images/1_2_Project2_Data_Pipeline.png)
+
+End-to-end ETL pipeline transforming raw CSV files into a star schema data warehouse and analytical data marts.
+
+**Skills:** Dimensional modeling, ETL pipeline development, data mart architecture, production practices
